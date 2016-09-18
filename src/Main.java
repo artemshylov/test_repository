@@ -9,7 +9,7 @@ public class Main{
     public static void main(String[] args) {
         JFrame frame = new JFrame("Hi");
         frame.setVisible(true);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setSize(300,300);
         frame.setBackground(Color.GREEN);
         frame.setLocation(400,400);
